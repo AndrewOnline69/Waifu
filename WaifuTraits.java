@@ -116,7 +116,7 @@ public class WaifuTraits{
             System.out.println();
 
             try{
-            BufferedWriter file = new BufferedWriter(new FileWriter("C:\\Users\\Andrew Santiago\\Documents\\Java Project\\Waifu List\\Waifu Files\\" + WaifuList[num].getName() + ".txt"));
+            BufferedWriter file = new BufferedWriter(new FileWriter("*\\Waifu List\\Waifu Files\\" + WaifuList[num].getName() + ".txt"));
 
             file.write(WaifuList[num].getName());
             file.write("\nShe is " + WaifuList[num].getAge() + " years old");
